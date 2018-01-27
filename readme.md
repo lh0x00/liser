@@ -114,11 +114,11 @@ these are already supported modules
 
 # version
 
-### beta: 0.0.1
+### beta: 0.0.3
 
 ### stable: -
 
-### lastest: 0.0.1
+### lastest: 0.0.3
 
 
 # license
