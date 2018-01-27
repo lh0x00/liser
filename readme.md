@@ -65,6 +65,10 @@ name=simple npm run build:module box-shadow colors widths
 
 module name is `simple` and it will combine `box-shadow` `colors` `widths` modules
 
+## step 4
+
+after build completed, you can use that file for your site
+
 
 # todos
 
