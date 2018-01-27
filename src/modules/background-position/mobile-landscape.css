@@ -1,0 +1,25 @@
+/**
+  @box-shadow: mobile-landscape screen
+*/
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .bg-center-ml {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .bg-top-ml {
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .bg-right-ml {
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+  .bg-bottom-ml {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+  .bg-left-ml {
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+}
