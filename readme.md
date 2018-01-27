@@ -7,16 +7,18 @@ functional css help to optimizing design work and building responsive websites. 
 
 # usage
 
-## step 1
+## self-generated
 
-### clone liser repository
+### step 1
+
+#### clone liser repository
 ```bash
 git clone https://github.com/lamhieu-vk/liser.git
 ```
 
-## step 2
+### step 2
 
-### create a modules
+#### create a modules
 
 - create a directory with the name `example` located at `/src/modules`
 
@@ -26,9 +28,9 @@ git clone https://github.com/lamhieu-vk/liser.git
 
 and now you have a new module
 
-## step 3
+### step 3
 
-### build official files
+#### build official files
 
 ```bash
 npm run build
@@ -36,19 +38,19 @@ npm run build
 
 it will run build main files and build split files to dir `/build`
 
-### build main files
+#### build main files
 
 ```bash
 npm run build:main
 ```
 
-### build split files
+#### build split files
 
 ```bash
 npm run build:split
 ```
 
-### build a module
+#### build a module
 
 ```bash
 name={module_name} npm run build:module {...modules_list}
@@ -65,9 +67,27 @@ name=simple npm run build:module box-shadow colors widths
 
 module name is `simple` and it will combine `box-shadow` `colors` `widths` modules
 
-## step 4
+### step 4
 
 after build completed, you can use that file for your site
+
+## library
+
+### full modules
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/liser/build/liser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/liser@stable/build/liser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/liser@beta/build/liser.min.css">
+```
+
+### once module
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/liser/build/liser.[module].min.css">
+<link rel="stylesheet" href="https://unpkg.com/liser/build@stable/liser.[module].min.css">
+<link rel="stylesheet" href="https://unpkg.com/liser/build@beta/liser.[module].min.css">
+```
 
 
 # todos
