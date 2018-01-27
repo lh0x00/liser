@@ -1,0 +1,71 @@
+{
+  "name": "liser",
+  "version": "0.0.1",
+  "description":
+    "functional css help to optimizing design work and building responsive websites",
+  "homepage": "https://github.com/lamhieu-vk/liser",
+  "author": {
+    "name": "Lam Hieu",
+    "email": "lamhieu.vk@gmail.com",
+    "url": "https://lamhieu.info"
+  },
+  "contributors": [
+    {
+      "name": "Lam Hieu",
+      "email": "lamhieu.vk@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": "lamhieu-vk/liser",
+  "main": "index.js",
+  "files": ["modules", "build", "docs", "src"],
+  "scripts": {
+    "build": "npm run build:main && npm run build:split",
+    "build:main":
+      "tachyons src/liser.css > build/liser.css && tachyons src/liser.css -m > build/liser.min.css",
+    "build:module":
+      "babel-node scripts/modules-builder.js --name $name --clean $clean",
+    "build:split": "babel-node scripts/split-builder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lamhieu-vk/liser/issues",
+    "email": "lamhieu.vk@gmail.com"
+  },
+  "keywords": [
+    "liser",
+    "ciser",
+    "css",
+    "postcss",
+    "functional",
+    "style",
+    "design",
+    "responsive",
+    "quickly"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.38",
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "@babel/preset-flow": "^7.0.0-beta.38",
+    "@babel/preset-react": "^7.0.0-beta.38",
+    "@babel/preset-stage-0": "^7.0.0-beta.38",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.0",
+    "flow-bin": "^0.64.0",
+    "glob": "^7.1.2",
+    "shelljs": "^0.8.1",
+    "tachyons-build-css": "^1.6.0",
+    "tachyons-cli": "^1.2.0",
+    "yargs": "^11.0.0"
+  }
+}
