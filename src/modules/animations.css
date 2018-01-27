@@ -1,0 +1,8 @@
+/**
+  module: @animations
+*/
+@import "./animations/all.css";
+@import "./animations/large.css";
+@import "./animations/medium.css";
+@import "./animations/mobile-landscape.css";
+@import "./animations/not-small.css";
