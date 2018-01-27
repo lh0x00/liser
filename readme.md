@@ -71,6 +71,15 @@ module name is `simple` and it will combine `box-shadow` `colors` `widths` modul
 - [ ] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser
 
 
+# modules
+
+these are already supported modules
+
+- [-] [animations](https://github.com/lamhieu-vk/liser/blob/master/docs/animations.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/animations)
+
+- [-] [box-shadow](https://github.com/lamhieu-vk/liser/blob/master/docs/box-shadow.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/box-shadow)
+
+
 # version
 
 ### beta: 0.0.1
