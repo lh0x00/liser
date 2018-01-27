@@ -21,6 +21,8 @@
   "files": ["modules", "build", "docs", "src"],
   "scripts": {
     "deploy": "npm run build && npm publish",
+    "deploy:beta": "npm run build && npm publish --tag beta",
+    "deploy:stable": "npm run build && npm publish --tag stable",
     "build": "npm run build:main && npm run build:split",
     "build:main":
       "tachyons src/liser.css > build/liser.css && tachyons src/liser.css -m > build/liser.min.css",
