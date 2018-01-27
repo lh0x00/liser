@@ -79,6 +79,8 @@ after build completed, you can use that file for your site
 
 these are already supported modules
 
+- [-] [aspect-ratio](https://github.com/lamhieu-vk/liser/blob/master/docs/aspect-ratio.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/aspect-ratio)
+
 - [-] [animations](https://github.com/lamhieu-vk/liser/blob/master/docs/animations.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/animations)
 
 - [-] [box-shadow](https://github.com/lamhieu-vk/liser/blob/master/docs/box-shadow.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/box-shadow)
