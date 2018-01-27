@@ -1,6 +1,6 @@
 /*!
     Lam Hieu <lamhieu.vk@gmail.com> - lamhieu.info
-    liser (v0.0.3) MIT license - github/lamhieu-vk/liser | npmjs.com/package/liser
+    liser (v0.0.4) MIT license - github/lamhieu-vk/liser | npmjs.com/package/liser
 */
 /*
   media query extensions:
@@ -82,6 +82,13 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /**
   @aspect-ratio: not-small screen
 */
+/**
+  module: @images
+*/
+/**
+  @images: all screen
+*/
+.img { max-width: 100%; }
 /**
   module: @box-shadow
 */
