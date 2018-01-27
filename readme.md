@@ -92,12 +92,14 @@ after build completed, you can use that file for your site
 
 # todos
 
-- [ ] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser
+- [ ] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser. can you help me? it's great!
 
 
 # modules
 
 these are already supported modules
+
+- [-] [box-shadow-hover](https://github.com/lamhieu-vk/liser/blob/master/docs/box-shadow-hover.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/box-shadow-hover)
 
 - [-] box-sizing, view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/box-sizing)
 
