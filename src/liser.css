@@ -2,4 +2,7 @@
 
 /* modules */
 
+@import "./modules/background-position";
+@import "./modules/aspect-ratio";
 @import "./modules/box-shadow";
+@import "./modules/animations";
