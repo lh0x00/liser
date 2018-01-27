@@ -1,0 +1,8 @@
+/**
+  module: @box-shadow-hover
+*/
+@import "./box-shadow-hover/all.css";
+@import "./box-shadow-hover/large.css";
+@import "./box-shadow-hover/medium.css";
+@import "./box-shadow-hover/mobile-landscape.css";
+@import "./box-shadow-hover/not-small.css";
