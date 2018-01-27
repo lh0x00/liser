@@ -1,0 +1,244 @@
+/**
+  @animations: all
+*/
+
+.a-zoom-in-out {
+  animation: zoom-in-out var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-zoom-out-in {
+  animation: zoom-out-in var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-fade-in {
+  animation: fade-in var(--duration-normal) ease;
+}
+.a-fade-out {
+  animation: fade-out var(--duration-normal) ease;
+}
+.a-fade-in-out {
+  animation: fade-in-out var(--duration-normal) ease;
+}
+.a-fade-out-in {
+  animation: fade-out-in var(--duration-normal) ease;
+}
+.a-slide-to-top {
+  animation: slide-to-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-to-right {
+  animation: slide-to-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-to-bottom {
+  animation: slide-to-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-to-left {
+  animation: slide-to-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-top {
+  animation: slide-toggle-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-right {
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-bottom {
+  animation: slide-toggle-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-right {
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-shake {
+  animation: shake var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-wobble {
+  animation: wobble var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-rotate {
+  animation: rotate var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-tilt-right {
+  animation: tilt-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-tilt-left {
+  animation: tilt-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+
+.a-reset.e-tigger,
+.a-reset.e-active:active,
+.a-reset.e-hover:hover {
+  animation-name: none;
+}
+
+.a-vf {
+  animation-duration: var(--duration-very-fast);
+}
+.a-f {
+  animation-duration: var(--duration-fast);
+}
+.a-n {
+  animation-duration: var(--duration-normal);
+}
+.a-s {
+  animation-duration: var(--duration-slow);
+}
+.a-vs {
+  animation-duration: var(--duration-very-slow);
+}
+.a-bs {
+  animation-duration: var(--duration-bind-slow);
+}
+.a-ss {
+  animation-duration: var(--duration-super-slow);
+}
+
+.a-normal {
+  animation-direction: normal;
+}
+.a-reverse {
+  animation-direction: reverse;
+}
+.a-alternate {
+  animation-direction: alternate;
+}
+.a-alternate-reverse {
+  animation-direction: alternate-reverse;
+}
+
+.a-ease {
+  animation-timing-function: ease;
+}
+.a-ease-in {
+  animation-timing-function: ease-in;
+}
+.a-ease-out {
+  animation-timing-function: ease-out;
+}
+.a-ease-in-out {
+  animation-timing-function: ease-in-out;
+}
+.a-linear {
+  animation-timing-function: linear;
+}
+.a-step-start {
+  animation-timing-function: step-start;
+}
+.a-step-end {
+  animation-timing-function: step-end;
+}
+
+.a-infinite {
+  animation-iteration-count: infinite;
+}
+.a-2s {
+  animation-iteration-count: 2;
+}
+.a-3s {
+  animation-iteration-count: 3;
+}
+.a-4s {
+  animation-iteration-count: 4;
+}
+.a-5s {
+  animation-iteration-count: 5;
+}
+.a-10s {
+  animation-iteration-count: 10;
+}
+
+.a-paused {
+  animation-play-state: paused;
+}
+.a-running {
+  animation-play-state: running;
+}
+
+.a-fill-none {
+  animation-fill-mode: none;
+}
+.a-fill-forwards {
+  animation-fill-mode: forwards;
+}
+.a-fill-backwards {
+  animation-fill-mode: backwards;
+}
+.a-fill-both {
+  animation-fill-mode: both;
+}
+
+.a-delay-vf {
+  animation-delay: var(--duration-very-fast);
+}
+.a-delay-f {
+  animation-delay: var(--duration-fast);
+}
+.a-delay-n {
+  animation-delay: var(--duration-normal);
+}
+.a-delay-s {
+  animation-delay: var(--duration-slow);
+}
+.a-delay-vs {
+  animation-delay: var(--duration-very-slow);
+}
+
+.a--zoom-in-out {
+  animation-name: zoom-in-out;
+}
+.a--zoom-out-in {
+  animation-name: zoom-out-in;
+}
+.a--fade-in {
+  animation-name: fade-in;
+}
+.a--fade-out {
+  animation-name: fade-out;
+}
+.a--fade-in-out {
+  animation-name: fade-in-out;
+}
+.a--fade-out-in {
+  animation-name: fade-out-in;
+}
+.a--slide-to-top {
+  animation-name: slide-to-top;
+}
+.a--slide-to-right {
+  animation-name: slide-to-right;
+}
+.a--slide-to-bottom {
+  animation-name: slide-to-bottom;
+}
+.a--slide-to-left {
+  animation-name: slide-to-left;
+}
+.a--shake {
+  animation-name: shake;
+}
+.a--wobble {
+  animation-name: wobble;
+}
+.a--rotate {
+  animation-name: rotate;
+}
+.a--tilt-right {
+  animation-name: tilt-right;
+}
+.a--tilt-left {
+  animation-name: tilt-left;
+}
+
+.a-none {
+  animation: none;
+}
