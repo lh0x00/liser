@@ -68,16 +68,16 @@ module name is `simple` and it will combine `box-shadow` `colors` `widths` modul
 
 # todos
 
-- [] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser
+- [ ] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser
 
 
 # version
 
-## beta: 0.0.1
+### beta: 0.0.1
 
-## stable: -
+### stable: -
 
-## lastest: 0.0.1
+### lastest: 0.0.1
 
 
 # license
