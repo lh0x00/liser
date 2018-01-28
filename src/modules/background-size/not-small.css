@@ -1,0 +1,8 @@
+/**
+  @background-size: not-small screen
+*/
+
+@media screen and (min-width: 30em) {
+  .cover-ns { background-size: cover!important; }
+  .contain-ns { background-size: contain!important; }
+}

@@ -1,0 +1,8 @@
+/**
+  @background-size: mobile-landscape screen
+*/
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .cover-ml { background-size: cover!important; }
+  .contain-ml { background-size: contain!important; }
+}
