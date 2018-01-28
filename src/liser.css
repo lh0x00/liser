@@ -3,11 +3,11 @@
 /* modules */
 
 @import "./modules/box-sizing";
+@import "./modules/aspect-ratio";
+@import "./modules/images";
 @import "./modules/background-size";
 @import "./modules/background-position";
 @import "./modules/outlines";
-@import "./modules/aspect-ratio";
-@import "./modules/images";
 @import "./modules/box-shadow";
 @import "./modules/box-shadow-hover";
 @import "./modules/animations";
