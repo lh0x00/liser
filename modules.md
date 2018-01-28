@@ -2,6 +2,8 @@
 
 these are already supported modules
 
+- [-] [broders](https://github.com/lamhieu-vk/liser/blob/master/docs/broders.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/broders)
+
 - [-] [background-size](https://github.com/lamhieu-vk/liser/blob/master/docs/background-size.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/background-size)
 
 - [-] [outlines](https://github.com/lamhieu-vk/liser/blob/master/docs/outlines.md), view source [here](https://github.com/lamhieu-vk/liser/tree/master/src/modules/outlines)
