@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": "lamhieu-vk/liser",
   "main": "index.js",
-  "files": ["modules", "build", "docs", "src"],
+  "files": ["modules", "build", "docs", "scripts", "src"],
   "scripts": {
     "deploy": "npm run build && npm publish",
     "deploy:beta": "npm run build && npm publish --tag beta",
