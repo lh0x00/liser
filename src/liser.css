@@ -4,6 +4,7 @@
 
 @import "./modules/box-sizing";
 @import "./modules/background-position";
+@import "./modules/outlines";
 @import "./modules/aspect-ratio";
 @import "./modules/images";
 @import "./modules/box-shadow";
