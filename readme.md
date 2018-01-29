@@ -90,7 +90,7 @@ after build completed, you can use that file for your site
 
 # todos
 
-- [ ] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser. can you help me? it's great!
+- [-] fork modules from [ciser](https://github.com/lamhieu-vk/ciser) to liser. can you help me? it's great!
 
 
 # modules
