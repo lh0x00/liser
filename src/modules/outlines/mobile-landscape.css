@@ -1,5 +1,0 @@
-@media screen and (max-width: 60em) and (orientation: landscape) {
-  .outline-ml { outline: 1px solid; }
-  .outline-transparent-ml { outline: 1px solid transparent; }
-  .outline-0-ml { outline: 0; }
-}

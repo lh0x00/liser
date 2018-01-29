@@ -1,1 +1,5 @@
-@import "./images/all.css";
+/* Responsive images! */
+
+img {
+  max-width: 100%;
+}

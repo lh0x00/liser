@@ -1,5 +1,42 @@
-@import "./background-size/all.css";
-@import "./background-size/large.css";
-@import "./background-size/medium.css";
-@import "./background-size/mobile-landscape.css";
-@import "./background-size/not-small.css";
+.cover {
+  background-size: cover !important;
+}
+.contain {
+  background-size: contain !important;
+}
+
+@media screen and (min-width: 30em) {
+  .cover-ns {
+    background-size: cover !important;
+  }
+  .contain-ns {
+    background-size: contain !important;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .cover-m {
+    background-size: cover !important;
+  }
+  .contain-m {
+    background-size: contain !important;
+  }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .cover-ml {
+    background-size: cover !important;
+  }
+  .contain-ml {
+    background-size: contain !important;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .cover-l {
+    background-size: cover !important;
+  }
+  .contain-l {
+    background-size: contain !important;
+  }
+}
