@@ -1,6 +1,6 @@
 {
   "name": "liser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description":
     "functional css help to optimizing design work and building responsive websites",
   "homepage": "https://github.com/lamhieu-vk/liser",
@@ -20,15 +20,16 @@
   "main": "index.js",
   "files": ["modules", "build", "docs", "scripts", "src"],
   "scripts": {
-    "deploy": "npm run build && npm publish",
-    "deploy:beta": "npm run build && npm publish --tag beta",
-    "deploy:stable": "npm run build && npm publish --tag stable",
+    "deploy": "npm run build && npm run checkout:modules && npm publish",
+    "deploy:beta": "npm run build && npm run checkout:modules && npm publish --tag beta",
+    "deploy:stable": "npm run build && npm run checkout:modules && npm publish --tag stable",
     "build": "npm run build:main && npm run build:split",
     "build:main":
       "tachyons src/liser.css > build/liser.css && tachyons src/liser.css -m > build/liser.min.css",
     "build:module":
       "babel-node scripts/modules-builder.js --name $name --clean $clean",
     "build:split": "babel-node scripts/split-builder.js",
+    "checkout:modules": "babel-node scripts/checkout-modules.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {

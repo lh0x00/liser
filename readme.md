@@ -78,7 +78,6 @@ after build completed, you can use that file for your site
 ```html
 <link rel="stylesheet" href="https://unpkg.com/liser/build/liser.min.css">
 <link rel="stylesheet" href="https://unpkg.com/liser@stable/build/liser.min.css">
-<link rel="stylesheet" href="https://unpkg.com/liser@beta/build/liser.min.css">
 ```
 
 ### once module
@@ -86,7 +85,6 @@ after build completed, you can use that file for your site
 ```html
 <link rel="stylesheet" href="https://unpkg.com/liser/build/liser.[module].min.css">
 <link rel="stylesheet" href="https://unpkg.com/liser/build@stable/liser.[module].min.css">
-<link rel="stylesheet" href="https://unpkg.com/liser/build@beta/liser.[module].min.css">
 ```
 
 
@@ -101,8 +99,6 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 
 # version
-
-### beta: 0.1.1
 
 ### stable: 0.1.0
 
