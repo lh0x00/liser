@@ -1,6 +1,3 @@
-/**
-  @aspect-ratio: large screen
-*/
 @media screen and (min-width: 60em) {
   .aspect-ratio-ns {
     height: 0;

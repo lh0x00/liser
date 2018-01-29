@@ -1,6 +1,3 @@
-/**
-  module: @background-position
-*/
 @import "./background-position/all.css";
 @import "./background-position/large.css";
 @import "./background-position/medium.css";

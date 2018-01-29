@@ -1,8 +1,3 @@
-/**
-  @broder-colors: all screen
-*/
-
-
 .b--black {        border-color: var(--black); }
 .b--near-black {   border-color: var(--near-black); }
 .b--dark-gray {    border-color: var(--dark-gray); }

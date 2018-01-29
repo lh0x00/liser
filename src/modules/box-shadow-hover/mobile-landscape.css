@@ -1,6 +1,3 @@
-/**
-  @box-shadow: mobile-landscape screen
-*/
 @media screen and (max-width: 60em) and (orientation: landscape) {
   .hover-shadow-t-0-ml {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);

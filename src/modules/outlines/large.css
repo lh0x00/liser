@@ -1,7 +1,3 @@
-/**
-  @outlines: large
-*/
-
 @media screen and (min-width: 60em) {
   .outline-l { outline: 1px solid; }
   .outline-transparent-l { outline: 1px solid transparent; }

@@ -1,6 +1,2 @@
-/**
-  @background-size: all
-*/
-
 .cover { background-size: cover!important; }
 .contain { background-size: contain!important; }

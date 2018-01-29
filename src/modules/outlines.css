@@ -1,7 +1,3 @@
-/**
-  module: @outlines
-*/
-
 @import "./outlines/all.css";
 @import "./outlines/large.css";
 @import "./outlines/medium.css";

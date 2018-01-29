@@ -1,6 +1,3 @@
-/**
-  module: @box-shadow
-*/
 @import "./box-shadow/all.css";
 @import "./box-shadow/large.css";
 @import "./box-shadow/medium.css";

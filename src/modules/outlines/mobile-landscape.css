@@ -1,7 +1,3 @@
-/**
-  @outlines: mobile-landscape screen
-*/
-
 @media screen and (max-width: 60em) and (orientation: landscape) {
   .outline-ml { outline: 1px solid; }
   .outline-transparent-ml { outline: 1px solid transparent; }

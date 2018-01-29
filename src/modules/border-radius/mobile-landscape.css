@@ -1,0 +1,42 @@
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .br0-ml {
+    border-radius: 0;
+  }
+  .br1-ml {
+    border-radius: 0.125rem;
+  }
+  .br2-ml {
+    border-radius: 0.25rem;
+  }
+  .br3-ml {
+    border-radius: 0.5rem;
+  }
+  .br4-ml {
+    border-radius: 1rem;
+  }
+  .br5-ml {
+    border-radius: 2rem;
+  }
+  .br-100-ml {
+    border-radius: 100%;
+  }
+  .br-pill-ml {
+    border-radius: 9999px;
+  }
+  .br--bottom-ml {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .br--top-ml {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .br--right-ml {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .br--left-ml {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

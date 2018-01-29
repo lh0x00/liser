@@ -1,6 +1,3 @@
-/**
-  @box-shadow: large screen
-*/
 @media screen and (min-width: 60em) {
   .hover-shadow-t-0-l {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);

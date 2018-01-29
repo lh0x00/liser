@@ -1,6 +1,3 @@
-/**
-  module: @aspect-ratio
-*/
 @import "./aspect-ratio/all.css";
 @import "./aspect-ratio/large.css";
 @import "./aspect-ratio/medium.css";

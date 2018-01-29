@@ -1,0 +1,42 @@
+@media screen and (min-width: 60em) {
+  .br0-l {
+    border-radius: 0;
+  }
+  .br1-l {
+    border-radius: 0.125rem;
+  }
+  .br2-l {
+    border-radius: 0.25rem;
+  }
+  .br3-l {
+    border-radius: 0.5rem;
+  }
+  .br4-l {
+    border-radius: 1rem;
+  }
+  .br5-l {
+    border-radius: 2rem;
+  }
+  .br-100-l {
+    border-radius: 100%;
+  }
+  .br-pill-l {
+    border-radius: 9999px;
+  }
+  .br--bottom-l {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .br--top-l {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .br--right-l {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .br--left-l {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

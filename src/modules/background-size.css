@@ -1,7 +1,3 @@
-/**
-  module: @background-size
-*/
-
 @import "./background-size/all.css";
 @import "./background-size/large.css";
 @import "./background-size/medium.css";

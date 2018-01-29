@@ -1,6 +1,3 @@
-/**
-  @animations: large
-*/
 @media screen and (min-width: 60em) {
   .a-zoom-in-out-l {
     animation: zoom-in-out var(--duration-normal) ease,

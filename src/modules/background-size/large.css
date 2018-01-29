@@ -1,7 +1,3 @@
-/**
-  @background-size: large
-*/
-
 @media screen and (min-width: 60em) {
   .cover-l { background-size: cover!important; }
   .contain-l { background-size: contain!important; }

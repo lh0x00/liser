@@ -1,6 +1,3 @@
-/**
-  @box-shadow: mobile-landscape screen
-*/
 @media screen and (max-width: 60em) and (orientation: landscape) {
   .bg-center-ml {
     background-repeat: no-repeat;

@@ -10,6 +10,7 @@
 @import "./modules/outlines";
 @import "./modules/borders";
 @import "./modules/border-colors";
+@import "./modules/border-radius";
 @import "./modules/box-shadow";
 @import "./modules/box-shadow-hover";
 @import "./modules/animations";

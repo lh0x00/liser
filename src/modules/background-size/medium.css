@@ -1,7 +1,3 @@
-/**
-  @background-size: medium screen
-*/
-
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .cover-m { background-size: cover!important; }
   .contain-m { background-size: contain!important; }

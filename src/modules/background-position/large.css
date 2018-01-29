@@ -1,6 +1,3 @@
-/**
-  @box-shadow: large screen
-*/
 @media screen and (min-width: 60em) {
   .bg-center-l {
     background-repeat: no-repeat;

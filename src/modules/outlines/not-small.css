@@ -1,6 +1,3 @@
-/**
-  @outlines: not-small screen
-*/
 @media screen and (min-width: 30em) {
   .outline-ns { outline: 1px solid; }
   .outline-transparent-ns { outline: 1px solid transparent; }
