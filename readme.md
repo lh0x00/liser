@@ -102,11 +102,11 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 # version
 
-### beta: 0.0.4
+### beta: 0.1.1
 
-### stable: -
+### stable: 0.1.0
 
-### lastest: 0.0.4
+### lastest: 0.1.1
 
 
 # license
