@@ -95,14 +95,14 @@ after build completed, you can use that file for your site
 
 # modules
 
-these are already supported modules, [read more](https://github.com/lamhieu-vk/liser/tree/master/src/modules.md)
+these are already supported modules, [read more](https://github.com/lamhieu-vk/liser/tree/master/modules.md)
 
 
 # version
 
 ### stable: 0.1.0
 
-### lastest: 0.1.1
+### lastest: 0.1.2
 
 
 # license
