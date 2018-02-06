@@ -17,6 +17,8 @@
 .a-rotate { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
 .a-tilt-right { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
 .a-tilt-left { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
+.a-zoom-in { -webkit-animation: zoom-in 1s ease, fade-in 1s ease; animation: zoom-in 1s ease, fade-in 1s ease; }
+.a-zoom-out { -webkit-animation: zoom-out 1s ease, fade-in 1s ease; animation: zoom-out 1s ease, fade-in 1s ease; }
 .a-restart.e-tigger, .a-restart.e-active:active, .a-restart.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
 .a-vf { -webkit-animation-duration: .25s; animation-duration: .25s; }
 .a-f { -webkit-animation-duration: .5s; animation-duration: .5s; }
@@ -68,6 +70,8 @@
 .a--rotate { -webkit-animation-name: rotate; animation-name: rotate; }
 .a--tilt-right { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
 .a--tilt-left { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+.a--zoom-in { -webkit-animation-name: zoom-in; animation-name: zoom-in; }
+.a--zoom-out { -webkit-animation-name: zoom-out; animation-name: zoom-out; }
 .a-none { -webkit-animation: none; animation: none; }
 @-webkit-keyframes zoom-in-out {
  0% { -webkit-transform: scale( 1 ); transform: scale( 1 ); }
@@ -257,6 +261,22 @@
  50% { -webkit-transform: rotate( -15deg ) scale( 1.2 ); transform: rotate( -15deg ) scale( 1.2 ); }
  100% { -webkit-transform: rotate( 0 ) scale( 1 ); transform: rotate( 0 ) scale( 1 ); }
 }
+@-webkit-keyframes zoom-out {
+ 0% { opacity: 0; -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@keyframes zoom-out {
+ 0% { opacity: 0; -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@-webkit-keyframes zoom-in {
+ 0% { -webkit-transform: scale( .8 ); transform: scale( .8 ); }
+ 100% { -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@keyframes zoom-in {
+ 0% { -webkit-transform: scale( .8 ); transform: scale( .8 ); }
+ 100% { -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
 @media screen and (min-width: 30em) {
  .a-zoom-in-out-ns { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
  .a-zoom-out-in-ns { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
@@ -277,6 +297,8 @@
  .a-rotate-ns { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-ns { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-ns { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
+ .a-zoom-in-ns { -webkit-animation: zoom-in 1s ease, fade-in 1s ease; animation: zoom-in 1s ease, fade-in 1s ease; }
+ .a-zoom-out-ns { -webkit-animation: zoom-out 1s ease, fade-in 1s ease; animation: zoom-out 1s ease, fade-in 1s ease; }
  .a-restart-ns.e-tigger, .a-restart-ns.e-active:active,
  .a-restart-ns.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
  .a-vf-ns { -webkit-animation-duration: .25s; animation-duration: .25s; }
@@ -333,6 +355,8 @@
  .a--rotate-ns { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-ns { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ns { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a--zoom-in-ns { -webkit-animation-name: zoom-in; animation-name: zoom-in; }
+ .a--zoom-out-ns { -webkit-animation-name: zoom-out; animation-name: zoom-out; }
  .a-none-ns { -webkit-animation: none; animation: none; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
@@ -355,6 +379,8 @@
  .a-rotate-m { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-m { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-m { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
+ .a-zoom-in-m { -webkit-animation: zoom-in 1s ease, fade-in 1s ease; animation: zoom-in 1s ease, fade-in 1s ease; }
+ .a-zoom-out-m { -webkit-animation: zoom-out 1s ease, fade-in 1s ease; animation: zoom-out 1s ease, fade-in 1s ease; }
  .a-restart-m.e-tigger, .a-restart-m.e-active:active, .a-restart-m.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
  .a-vf-m { -webkit-animation-duration: .25s; animation-duration: .25s; }
  .a-f-m { -webkit-animation-duration: .5s; animation-duration: .5s; }
@@ -410,6 +436,8 @@
  .a--rotate-m { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-m { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-m { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a--zoom-in-m { -webkit-animation-name: zoom-in; animation-name: zoom-in; }
+ .a--zoom-out-m { -webkit-animation-name: zoom-out; animation-name: zoom-out; }
  .a-none-m { -webkit-animation: none; animation: none; }
 }
 @media screen and (max-width: 60em) and (orientation: landscape) {
@@ -432,6 +460,8 @@
  .a-rotate-ml { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-ml { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-ml { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
+ .a-zoom-in-ml { -webkit-animation: zoom-in 1s ease, fade-in 1s ease; animation: zoom-in 1s ease, fade-in 1s ease; }
+ .a-zoom-out-ml { -webkit-animation: zoom-out 1s ease, fade-in 1s ease; animation: zoom-out 1s ease, fade-in 1s ease; }
  .a-restart-ml.e-tigger, .a-restart-ml.e-active:active,
  .a-restart-ml.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
  .a-vf-ml { -webkit-animation-duration: .25s; animation-duration: .25s; }
@@ -488,6 +518,8 @@
  .a--rotate-ml { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-ml { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ml { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a--zoom-in-ml { -webkit-animation-name: zoom-in; animation-name: zoom-in; }
+ .a--zoom-out-ml { -webkit-animation-name: zoom-out; animation-name: zoom-out; }
  .a-none-ml { -webkit-animation: none; animation: none; }
 }
 @media screen and (min-width: 60em) {
@@ -510,6 +542,8 @@
  .a-rotate-l { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-l { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-l { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
+ .a-zoom-in-l { -webkit-animation: zoom-in 1s ease, fade-in 1s ease; animation: zoom-in 1s ease, fade-in 1s ease; }
+ .a-zoom-out-l { -webkit-animation: zoom-out 1s ease, fade-in 1s ease; animation: zoom-out 1s ease, fade-in 1s ease; }
  .a-restart-l.e-tigger, .a-restart-l.e-active:active, .a-restart-l.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
  .a-vf-l { -webkit-animation-duration: .25s; animation-duration: .25s; }
  .a-f-l { -webkit-animation-duration: .5s; animation-duration: .5s; }
@@ -565,6 +599,8 @@
  .a--rotate-l { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-l { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-l { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a--zoom-in-l { -webkit-animation-name: zoom-in; animation-name: zoom-in; }
+ .a--zoom-out-l { -webkit-animation-name: zoom-out; animation-name: zoom-out; }
  .a-none-l { -webkit-animation: none; animation: none; }
 }
 
