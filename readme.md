@@ -87,6 +87,10 @@ after build completed, you can use that file for your site
 <link rel="stylesheet" href="https://unpkg.com/liser/build@stable/liser.[module].min.css">
 ```
 
+# updated
+
+updated history, [read more](https://github.com/lamhieu-vk/liser/tree/master/updated.md)
+
 
 # todos
 
@@ -100,9 +104,9 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 # version
 
-### stable: 0.1.0
+### stable: 0.1.3
 
-### lastest: 0.1.2
+### lastest: 0.1.4
 
 
 # license
