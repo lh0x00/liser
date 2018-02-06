@@ -80,6 +80,14 @@
   animation: tilt-left var(--duration-normal) ease,
     fade-in var(--duration-normal) ease;
 }
+.a-zoom-in {
+  animation: zoom-in var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
+.a-zoom-out {
+  animation: zoom-out var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
+}
 
 .a-restart.e-tigger,
 .a-restart.e-active:active,
@@ -244,6 +252,12 @@
 .a--tilt-left {
   animation-name: tilt-left;
 }
+.a--zoom-in {
+  animation-name: zoom-in;
+}
+.a--zoom-out {
+  animation-name: zoom-out;
+}
 
 .a-none {
   animation: none;
@@ -320,6 +334,14 @@
   }
   .a-tilt-left-ns {
     animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-in-ns {
+    animation: zoom-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-out-ns {
+    animation: zoom-out var(--duration-normal) ease,
       fade-in var(--duration-normal) ease;
   }
 
@@ -498,6 +520,12 @@
   .a--tilt-left-ns {
     animation-name: tilt-left;
   }
+  .a--zoom-in-ns {
+    animation-name: zoom-in;
+  }
+  .a--zoom-out-ns {
+    animation-name: zoom-out;
+  }
 
   .a-none-ns {
     animation: none;
@@ -577,6 +605,15 @@
     animation: tilt-left var(--duration-normal) ease,
       fade-in var(--duration-normal) ease;
   }
+  .a-zoom-in-m {
+    animation: zoom-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-out-m {
+    animation: zoom-out var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+
   .a-restart-m.e-tigger,
   .a-restart-m.e-active:active,
   .a-restart-m.e-hover:hover {
@@ -752,6 +789,12 @@
   .a--tilt-left-m {
     animation-name: tilt-left;
   }
+  .a--zoom-in-m {
+    animation-name: zoom-in;
+  }
+  .a--zoom-out-m {
+    animation-name: zoom-out;
+  }
   .a-none-m {
     animation: none;
   }
@@ -828,6 +871,14 @@
   }
   .a-tilt-left-ml {
     animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-in-ml {
+    animation: zoom-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-out-ml {
+    animation: zoom-out var(--duration-normal) ease,
       fade-in var(--duration-normal) ease;
   }
   .a-restart-ml.e-tigger,
@@ -1005,6 +1056,12 @@
   .a--tilt-left-ml {
     animation-name: tilt-left;
   }
+  .a--zoom-in-ml {
+    animation-name: zoom-in;
+  }
+  .a--zoom-out-ml {
+    animation-name: zoom-out;
+  }
   .a-none-ml {
     animation: none;
   }
@@ -1081,6 +1138,14 @@
   }
   .a-tilt-left-l {
     animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-in-l {
+    animation: zoom-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
+  }
+  .a-zoom-out-l {
+    animation: zoom-out var(--duration-normal) ease,
       fade-in var(--duration-normal) ease;
   }
   .a-restart-l.e-tigger,
@@ -1257,6 +1322,12 @@
   }
   .a--tilt-left-l {
     animation-name: tilt-left;
+  }
+  .a--zoom-in-l {
+    animation-name: zoom-in;
+  }
+  .a--zoom-out-l {
+    animation-name: zoom-out;
   }
   .a-none-l {
     animation: none;
@@ -1473,5 +1544,23 @@
   }
   100% {
     transform: rotate(0) scale(1);
+  }
+}
+@keyframes zoom-out {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
   }
 }
