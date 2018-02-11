@@ -13,7 +13,7 @@ functional css help to optimizing design work and building responsive websites. 
 
 #### clone liser repository
 ```bash
-git clone https://github.com/lamhieu-vk/liser.git
+$ git clone https://github.com/lamhieu-vk/liser.git
 ```
 
 ### step 2
@@ -33,7 +33,7 @@ and now you have a new module
 #### build official files
 
 ```bash
-npm run build
+$ npm run build
 ```
 
 it will run build main files and build split files to dir `/build`
@@ -41,19 +41,19 @@ it will run build main files and build split files to dir `/build`
 #### build main files
 
 ```bash
-npm run build:main
+$ npm run build:main
 ```
 
 #### build split files
 
 ```bash
-npm run build:split
+$ npm run build:split
 ```
 
 #### build a module
 
 ```bash
-name={module_name} npm run build:module {...modules_list}
+$ name={module_name} npm run build:module {...modules_list}
 ```
 
 [**module_name**]: replace with a name you want
@@ -62,7 +62,7 @@ name={module_name} npm run build:module {...modules_list}
 
 ```bash
 example:
-name=simple npm run build:module box-shadow colors widths
+$ name=simple npm run build:module box-shadow colors widths
 ```
 
 module name is `simple` and it will combine `box-shadow` `colors` `widths` modules
