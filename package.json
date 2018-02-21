@@ -1,6 +1,6 @@
 {
   "name": "liser",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description":
     "functional css help to optimizing design work and building responsive websites",
   "homepage": "https://github.com/lamhieu-vk/liser",
@@ -45,7 +45,10 @@
     "style",
     "design",
     "responsive",
-    "quickly"
+    "quickly",
+    "builder",
+    "modules",
+    "library"
   ],
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.38",

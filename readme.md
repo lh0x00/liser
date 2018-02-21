@@ -2,9 +2,6 @@
 
 functional css help to optimizing design work and building responsive websites. liser help you create the module contains the css properties you need to use quickly and lightest!
 
-**liser** using **tachyons-cli** to build css lastest css files
-
-
 # usage
 
 ## self-generated
@@ -104,9 +101,9 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 # version
 
-### stable: 0.1.3
+### stable: 0.2.0
 
-### lastest: 0.1.4
+### lastest: 0.2.0
 
 
 # license
