@@ -1,5 +1,8 @@
 @import "./modules/_signature.css";
 
+/* reset */
+@import "./modules/normalize";
+
 /* modules */
 @import "./modules/box-sizing";
 @import "./modules/aspect-ratios";
