@@ -88,6 +88,9 @@ after build completed, you can use that file for your site
 
 updated history, [read more](https://github.com/lamhieu-vk/liser/tree/master/updated.md)
 
+# sites
+
+sites built with liser, [read more](https://github.com/lamhieu-vk/liser/tree/master/sites.md)
 
 # todos
 
@@ -103,7 +106,7 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 ### stable: 0.2.0
 
-### lastest: 0.2.0
+### lastest: 0.2.1
 
 
 # license
