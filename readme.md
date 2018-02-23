@@ -104,9 +104,9 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 # version
 
-### stable: 0.2.0
+### stable: 0.2.2
 
-### lastest: 0.2.1
+### lastest: 0.2.3
 
 
 # license
