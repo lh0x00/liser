@@ -1,8 +1,7 @@
 {
   "name": "liser",
-  "version": "0.2.3",
-  "description":
-    "functional css help to optimizing design work and building responsive websites",
+  "version": "0.2.4",
+  "description": "functional css help to optimizing design work and building responsive websites",
   "homepage": "https://github.com/lamhieu-vk/liser",
   "author": {
     "name": "Lam Hieu",
@@ -18,16 +17,20 @@
   "license": "MIT",
   "repository": "lamhieu-vk/liser",
   "main": "index.html",
-  "files": ["modules", "build", "docs", "scripts", "src"],
+  "files": [
+    "modules",
+    "build",
+    "docs",
+    "scripts",
+    "src"
+  ],
   "scripts": {
     "deploy": "npm run build && npm run checkout:modules && npm publish",
     "deploy:beta": "npm run build && npm run checkout:modules && npm publish --tag beta",
     "deploy:stable": "npm run build && npm run checkout:modules && npm publish --tag stable",
     "build": "npm run build:main && npm run build:split",
-    "build:main":
-      "tachyons src/liser.css > build/liser.css && tachyons src/liser.css -m > build/liser.min.css",
-    "build:module":
-      "babel-node scripts/modules-builder.js --name $name --clean $clean",
+    "build:main": "tachyons src/liser.css > build/liser.css && tachyons src/liser.css -m > build/liser.min.css",
+    "build:module": "babel-node scripts/modules-builder.js --name $name --clean $clean",
     "build:split": "babel-node scripts/split-builder.js",
     "checkout:modules": "babel-node scripts/checkout-modules.js",
     "test": "echo \"Error: no test specified\" && exit 1"

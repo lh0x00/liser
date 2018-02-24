@@ -109,9 +109,9 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 
 # version
 
-### stable: 0.2.2
+### stable: 0.2.4
 
-### lastest: 0.2.3
+### lastest: 0.2.4
 
 
 # license
@@ -121,7 +121,7 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 [npm-url]: https://npmjs.org/package/liser
 [npm-version-image]: https://badge.fury.io/js/liser.svg
 [npm-downloads-image]: https://img.shields.io/npm/dm/liser.svg
-[npm-version-stable-image]: https://img.shields.io/badge/stable-0.2.2-brightgreen.svg
+[npm-version-stable-image]: https://img.shields.io/badge/stable-0.2.4-brightgreen.svg
 [npm-version-stable-url]: https://unpkg.com/liser@stable/build/liser.min.css
 [github-issues-image]: https://img.shields.io/github/issues/lamhieu-vk/liser.svg
 [github-issues-url]: https://github.com/lamhieu-vk/liser/issues
