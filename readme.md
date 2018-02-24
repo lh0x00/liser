@@ -1,5 +1,10 @@
 # liser
 
+[![npm version][npm-version-image]][npm-url]
+[![npm version stable][npm-version-stable-image]][npm-version-stable-url]
+[![npm downloads][npm-downloads-image]][npm-url]
+[![github issues][github-issues-image]][github-issues-url]
+
 functional css help to optimizing design work and building responsive websites. liser help you create the module contains the css properties you need to use quickly and lightest!
 
 # usage
@@ -81,7 +86,7 @@ after build completed, you can use that file for your site
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/liser/build/liser.[module].min.css">
-<link rel="stylesheet" href="https://unpkg.com/liser/build@stable/liser.[module].min.css">
+<link rel="stylesheet" href="https://unpkg.com/liser@stable/build/liser.[module].min.css">
 ```
 
 # updated
@@ -112,3 +117,12 @@ these are already supported modules, [read more](https://github.com/lamhieu-vk/l
 # license
 
 [MIT](https://github.com/lamhieu-vk/liser/blob/master/LICENSE)
+
+[npm-url]: https://npmjs.org/package/liser
+[npm-version-image]: https://badge.fury.io/js/liser.svg
+[npm-downloads-image]: https://img.shields.io/npm/dm/liser.svg
+[npm-version-stable-image]: https://img.shields.io/badge/stable-0.2.2-brightgreen.svg
+[npm-version-stable-url]: https://unpkg.com/liser@stable/build/liser.min.css
+[github-issues-image]: https://img.shields.io/github/issues/lamhieu-vk/liser.svg
+[github-issues-url]: https://github.com/lamhieu-vk/liser/issues
+
