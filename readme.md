@@ -1,5 +1,7 @@
 # liser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lamhieu-vk/liser.svg)](https://greenkeeper.io/)
+
 [![npm version][npm-version-image]][npm-url]
 [![npm version stable][npm-version-stable-image]][npm-version-stable-url]
 [![npm downloads][npm-downloads-image]][npm-url]
